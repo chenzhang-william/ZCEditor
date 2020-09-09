@@ -1,0 +1,54 @@
+
+{
+	"buildFiles" : [ "C:/Users/zc/Desktop/Project/ZCEditor/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"fmod-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "fmod",
+			"buildType" : "debug",
+			"output" : "C:/Users/zc/Desktop/Project/ZCEditor/app/libs/armeabi-v7a/libfmod.so",
+			"toolchain" : "2038318289"
+		},
+		"fmodL-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "fmodL",
+			"buildType" : "debug",
+			"output" : "C:/Users/zc/Desktop/Project/ZCEditor/app/libs/armeabi-v7a/libfmodL.so",
+			"toolchain" : "2038318289"
+		},
+		"sound-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "sound",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target sound",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=D:/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dsound_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/zc/Desktop/Project/ZCEditor/app/src/main/cpp/sound.cpp",
+					"workingDirectory" : "C:/Users/zc/Desktop/Project/ZCEditor/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/zc/Desktop/Project/ZCEditor/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsound.so",
+			"toolchain" : "2038318289"
+		}
+	},
+	"toolchains" : 
+	{
+		"2038318289" : 
+		{
+			"cCompilerExecutable" : "D:/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

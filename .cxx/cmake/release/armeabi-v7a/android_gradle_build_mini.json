@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "fmod-Release-armeabi-v7a": {
+      "artifactName": "fmod",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\libs\\armeabi-v7a\\libfmod.so"
+    },
+    "sound-Release-armeabi-v7a": {
+      "artifactName": "sound",
+      "buildCommand": "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\.cxx\\cmake\\release\\armeabi-v7a --target sound",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libsound.so"
+    },
+    "fmodL-Release-armeabi-v7a": {
+      "artifactName": "fmodL",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\zc\\Desktop\\Project\\ZCEditor\\app\\libs\\armeabi-v7a\\libfmodL.so"
+    }
+  }
+}

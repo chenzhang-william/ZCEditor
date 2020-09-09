@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zc.editor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:8:5-65
+13-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:8:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:9:5-71
+14-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:9:22-68
+15    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+15-->[com.github.yangjie10930:EpMedia:v0.9.5] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\6b63cb486e51fb35ad8dfcf59ef4ba69\EpMedia-v0.9.5\AndroidManifest.xml:12:5-73
+15-->[com.github.yangjie10930:EpMedia:v0.9.5] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\6b63cb486e51fb35ad8dfcf59ef4ba69\EpMedia-v0.9.5\AndroidManifest.xml:12:22-70
+16    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+16-->[com.github.yangjie10930:EpMedia:v0.9.5] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\6b63cb486e51fb35ad8dfcf59ef4ba69\EpMedia-v0.9.5\AndroidManifest.xml:13:5-84
+16-->[com.github.yangjie10930:EpMedia:v0.9.5] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\6b63cb486e51fb35ad8dfcf59ef4ba69\EpMedia-v0.9.5\AndroidManifest.xml:13:22-81
+17
+18    <application
+18-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:11:5-78:19
+19        android:name="com.zc.editor.base.MyApplication"
+19-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:12:9-56
+20        android:allowBackup="true"
+20-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:13:9-35
+21        android:debuggable="true"
+21-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:14:9-34
+22        android:hardwareAccelerated="true"
+22-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:15:9-43
+23        android:icon="@mipmap/ic_launch"
+23-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:16:9-41
+24        android:label="ZCeditor"
+24-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:17:9-33
+25        android:supportsRtl="true"
+25-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:19:9-35
+26        android:testOnly="true"
+27        android:theme="@style/MyTheme" >
+27-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:20:9-39
+28        <activity android:name="com.zc.editor.WelcomeActivity" >
+28-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:21:9-27:20
+28-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:21:19-63
+29            <intent-filter>
+29-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.zc.editor.blocks.atestcases.TestCaseActivity" />
+35-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:28:9-85
+35-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:28:19-82
+36        <activity android:name="com.zc.editor.blocks.others.changeVoice.ChangeVoiceActivity" />
+36-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:29:9-96
+36-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:29:19-93
+37        <activity android:name="com.zc.editor.blocks.mediaCodec.show.MediaCodecShowOnGlSurfaceView" />
+37-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:30:9-103
+37-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:30:19-100
+38        <activity android:name="com.zc.editor.HomeActivity" />
+38-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:31:9-72
+38-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:31:19-60
+39        <activity android:name="com.zc.editor.blocks.BlocksActivity" />
+39-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:32:9-72
+39-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:32:19-69
+40        <activity android:name="com.zc.editor.blocks.mediaCodec.MediaCodecActivity" />
+40-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:33:9-87
+40-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:33:19-84
+41        <activity android:name="com.zc.editor.whole.WholeActivity" />
+41-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:34:9-70
+41-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:34:19-67
+42        <activity android:name="com.zc.editor.blocks.mediaCodec.primary.PrimaryMediaCodecActivity" />
+42-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:35:9-102
+42-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:35:19-99
+43        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.encodeAndMux.EncodeAndMuxActivity" />
+43-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:36:9-111
+43-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:36:19-108
+44        <activity android:name="com.zc.editor.blocks.mediaCodec.recordCamera.RecordCameraActivity" />
+44-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:37:9-102
+44-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:37:19-99
+45        <activity android:name="com.zc.editor.whole.videoPlayer.VideoViewPlayerActivity" />
+45-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:38:9-92
+45-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:38:19-89
+46        <activity android:name="com.zc.editor.blocks.mediaCodec.recordBaseCamera.RecordBaseCameraActivity" />
+46-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:39:9-110
+46-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:39:19-107
+47        <activity android:name="com.zc.editor.blocks.mediaCodec.recordCameraOpenGl.RecordCameraOpenGlActivity" />
+47-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:40:9-114
+47-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:40:19-111
+48        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.cameraToMpeg.CameraToMpegActivity" />
+48-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:41:9-111
+48-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:41:19-108
+49        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.BigflakeActivity" />
+49-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:42:9-94
+49-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:42:19-91
+50        <activity
+50-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:43:9-47:20
+51            android:name="com.zc.editor.whole.record.RecorderActivity"
+51-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:44:13-71
+52            android:screenOrientation="portrait" >
+52-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:45:13-49
+53        </activity>
+54        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.encodeDecode.EncodeDecodeActivity" />
+54-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:48:9-111
+54-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:48:19-108
+55        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.extractDecodeEditEncodeMux.ExtractDecodeEditEncodeMuxActivity" />
+55-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:49:9-139
+55-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:49:19-136
+56        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.decodeEditEncode.DecodeEditEncodeActivity" />
+56-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:50:9-119
+56-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:50:19-116
+57        <activity android:name="com.zc.editor.blocks.mediaCodec.bigflake.extractMpegFrames.ExtractMpegFramesActivity" />
+57-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:51:9-121
+57-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:51:19-118
+58        <activity android:name="com.zc.editor.blocks.mediaCodec.primary.CreatMusicVideoByMediaCodecActivity" />
+58-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:52:9-112
+58-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:52:19-109
+59        <activity android:name="com.zc.editor.blocks.mediaCodec.primary.mp3TranslateAAC.Mp3TranslateAACActivity" />
+59-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:53:9-116
+59-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:53:19-113
+60        <activity android:name="com.zc.editor.blocks.mediaExtractor.MediaExtractorActivity" />
+60-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:54:9-95
+60-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:54:19-92
+61        <activity android:name="com.zc.editor.blocks.mediaMuxer.MediaMuxerActivity" />
+61-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:55:9-87
+61-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:55:19-84
+62        <activity android:name="com.zc.editor.blocks.mediaMuxer.functions.CreateVideoAddAudioToMp4" />
+62-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:56:9-103
+62-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:56:19-100
+63        <activity android:name="com.zc.editor.blocks.audioRecord.AudioRecordActivity" />
+63-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:57:9-89
+63-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:57:19-86
+64        <activity android:name="com.zc.editor.blocks.others.changeHue.ChangeHueActivity" />
+64-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:58:9-92
+64-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:58:19-89
+65        <activity android:name="com.zc.editor.blocks.others.OthersActivity" />
+65-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:59:9-79
+65-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:59:19-76
+66        <activity android:name="com.zc.editor.blocks.others.audioStyle.AudioStyleActivity" />
+66-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:60:9-81
+66-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:60:19-78
+67        <activity android:name="com.zc.editor.blocks.ffmpeg.FFmpegActivity" />
+67-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:61:9-79
+67-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:61:19-76
+68        <activity android:name="com.zc.editor.whole.createVideoByVoice.CreateVideoByAudioDbActivity" />
+68-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:62:9-104
+68-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:62:19-101
+69        <activity
+69-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:63:9-65:52
+70            android:name="com.zc.editor.whole.pickvideo.VideoPickActivity"
+70-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:64:13-75
+71            android:screenOrientation="portrait" />
+71-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:65:13-49
+72        <activity
+72-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:66:9-68:52
+73            android:name="com.zc.editor.whole.createVideoByVoice.localEdit.LocalVideoActivity"
+73-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:67:13-95
+74            android:screenOrientation="portrait" />
+74-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:68:13-49
+75        <activity
+75-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:69:9-71:52
+76            android:name="com.zc.editor.whole.editVideo.VideoEditActivity"
+76-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:70:13-75
+77            android:screenOrientation="portrait" />
+77-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:71:13-49
+78        <activity
+78-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:72:9-74:52
+79            android:name="com.zc.editor.whole.videoPlayer.VideoPlayerActivity2"
+79-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:73:13-80
+80            android:screenOrientation="portrait" />
+80-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:74:13-49
+81        <activity
+81-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:75:9-77:52
+82            android:name="com.zc.editor.whole.selCover.SelCoverTimeActivity"
+82-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:76:13-77
+83            android:screenOrientation="portrait" />
+83-->C:\Users\zc\Desktop\Project\ZCEditor\app\src\main\AndroidManifest.xml:77:13-49
+84        <activity
+84-->[pub.devrel:easypermissions:0.3.0] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\ae8fa50fa4feb3c25343bcdcdd0c5ee6\easypermissions-0.3.0\AndroidManifest.xml:12:9-16:66
+85            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+85-->[pub.devrel:easypermissions:0.3.0] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\ae8fa50fa4feb3c25343bcdcdd0c5ee6\easypermissions-0.3.0\AndroidManifest.xml:13:13-86
+86            android:exported="false"
+86-->[pub.devrel:easypermissions:0.3.0] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\ae8fa50fa4feb3c25343bcdcdd0c5ee6\easypermissions-0.3.0\AndroidManifest.xml:14:13-37
+87            android:label=""
+87-->[pub.devrel:easypermissions:0.3.0] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\ae8fa50fa4feb3c25343bcdcdd0c5ee6\easypermissions-0.3.0\AndroidManifest.xml:15:13-29
+88            android:theme="@style/EasyPermissions.Transparent" />
+88-->[pub.devrel:easypermissions:0.3.0] C:\Users\zc\Desktop\MyApplication\caches\transforms-2\files-2.1\ae8fa50fa4feb3c25343bcdcdd0c5ee6\easypermissions-0.3.0\AndroidManifest.xml:16:13-63
+89    </application>
+90
+91</manifest>
